@@ -1,0 +1,30 @@
+plusieurs scènes : menu, inventaire?, extérieur, première pièce, ...
+
+Grand hall avec du marbre ?
+Clef qui ne sert à rien
+
+premiere piece a creer : le hall d'entree
+
+trucs à gérer un peu compliques :
+	- inventaire (avec un json)
+	- déplacement
+	- interraction avec l'environnement
+	- classe joueur
+	- système de ray tracking (au moins pour le menu)
+	- écriture des énigmes
+	- json pour enregistrer la position des objets lachés (un par scène) --> classe objet : position, rotation, scale, nom du prefab
+	- gestion de la transition d'une scène à l'autre (trouver une idée)
+
+Idées d'énigmes :
+	- puzzle à plusieurs états (ex : figurine dont on peut bouger les membres) et il faut copier la position d'un clone/une image ailleurs
+	- deux figurines reliées. L'une doit appuyer sur un bouton et il faut manipuler l'autre pour cela
+	- une statut cassée dont il faut récupérer les morceaux pour la reconstruire
+	- Pressure plate
+	- On rentre dans une porte et on ressort depuis un trou de souris, notre nouvelle taille nous permet de récuperer un objet
+
+Idées d'events sympas :
+	- Il faut sonner pour rentrer mais la sonnette apparait seulement quand on prend la clef
+	- Pièce avec une porte par laquelle on rentre, mais quand on regarde dernière nous après être rentré la porte n'existe plus, qui apparait a nouveau quand on resout l'enigme
+	- on peut tenir des allumettes dans la main. plus elles brulent, plus la manette vibre fort, jusqu'a devoir la lacher
+	- lampe torche qui marche dehors mais qui casse pile quand on rentre dans la maison
+	- pour accéder à l'inventaire, le joueur fait un geste similaire à la prise de son sac à dos
